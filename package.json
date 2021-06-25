@@ -9,7 +9,7 @@
     "dev-server": "webpack-dev-server --open --config webpack.dev.js",
     "test": "cross-env NODE_ENV=test jest --watch",
     "start": "node server/server.js",
-    "heroku-postbuild": "yarn run build"
+    "heroku-postbuild": "npm run build"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.3",
